@@ -13,7 +13,6 @@ class Program
             { "armia", "673453" }
         };
 
-        // Gün sonu işlemleri için log listeleri
         List<string> transactions = new List<string>();
         List<string> failedAttempts = new List<string>();
 
@@ -79,7 +78,7 @@ class Program
         }
 
         Console.WriteLine("Program sonlandırılıyor...");
-        Console.ReadKey(); // Konsolun kapanmasını engellemek için
+        Console.ReadKey();
     }
 
     static void GenerateEndOfDayReport(List<string> transactions, List<string> failedAttempts)
