@@ -19,7 +19,6 @@ class Program
         bool userAuthenticated = false;
         while (!userAuthenticated)
         {
-            // Kullanıcı girişi
             Console.Write("Kullanıcı adı: ");
             string username = Console.ReadLine();
             Console.Write("Şifre: ");
